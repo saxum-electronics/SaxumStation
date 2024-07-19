@@ -13,13 +13,21 @@ header {
 }
 
 main {
-    display: flex;
     padding: 20px;
 }
 
-aside {
-    width: 20%;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
     padding: 10px;
+}
+
+#menu {
+    width: 20%;
     background-color: #333;
 }
 
@@ -33,6 +41,11 @@ aside {
     padding: 10px;
     border: none;
     border-radius: 5px;
+}
+
+#comments {
+    width: 20%;
+    background-color: #333;
 }
 
 #menu ul {
