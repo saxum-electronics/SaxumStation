@@ -18,31 +18,36 @@ header h1 {
 }
 
 header svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 10px;
 }
 
 .bar {
-    fill: #1db954;
     animation: sound 1s infinite;
 }
 
-.bar:nth-child(2) {
+.bar1 {
+    fill: orange;
     animation-delay: 0.1s;
 }
 
-.bar:nth-child(3) {
+.bar2 {
+    fill: red;
     animation-delay: 0.2s;
 }
 
-.bar:nth-child(4) {
+.bar3 {
+    fill: green;
     animation-delay: 0.3s;
 }
 
-.bar:nth-child(5) {
+.bar4 {
+    fill: orange;
     animation-delay: 0.4s;
+}
+
+.bar5 {
+    fill: red;
+    animation-delay: 0.5s;
 }
 
 @keyframes sound {
