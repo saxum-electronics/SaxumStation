@@ -22,7 +22,7 @@ header h1 {
 }
 
 .image-container img {
-    max-width: 100%;
+    width: 200px; /* Ajusta este valor según el tamaño deseado */
     height: auto;
 }
 
