@@ -26,27 +26,27 @@ header h1 {
 }
 
 .bar1 {
-    fill: orange;
-    animation-delay: 0.3s;
+    fill: red;
+    animation-delay: 0.1s;
 }
 
 .bar2 {
-    fill: red;
-    animation-delay: 0.3s;
+    fill: green;
+    animation-delay: 0.2s;
 }
 
 .bar3 {
-    fill: green;
+    fill: blue;
     animation-delay: 0.3s;
 }
 
 .bar4 {
-    fill: orange;
+    fill: red;
     animation-delay: 0.4s;
 }
 
 .bar5 {
-    fill: red;
+    fill: green;
     animation-delay: 0.5s;
 }
 
