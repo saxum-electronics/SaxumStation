@@ -9,6 +9,13 @@
 <body>
     <header>
         <h1>Saxum Station</h1>
+        <svg width="100" height="50" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="10" width="10" height="30" class="bar"></rect>
+            <rect x="30" y="10" width="10" height="30" class="bar"></rect>
+            <rect x="50" y="10" width="10" height="30" class="bar"></rect>
+            <rect x="70" y="10" width="10" height="30" class="bar"></rect>
+            <rect x="90" y="10" width="10" height="30" class="bar"></rect>
+        </svg>
     </header>
     <main>
         <table>
@@ -21,7 +28,10 @@
                     </ul>
                 </td>
                 <td id="main-content">
-                    <input type="text" placeholder="Buscar...">
+                    <div class="search-container">
+                        <input type="text" placeholder="Buscar...">
+                        <button>Buscar</button>
+                    </div>
                 </td>
                 <td id="comments">
                     <h2>Comentarios de Usuarios</h2>
@@ -31,5 +41,8 @@
             </tr>
         </table>
     </main>
+    <footer>
+        <p>© 2024 Saxum Station. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
