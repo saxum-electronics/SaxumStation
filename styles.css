@@ -10,15 +10,15 @@ header {
     text-align: center;
     padding: 20px 0;
     background-color: #222;
-    position: relative;
 }
 
 header h1 {
     margin: 0;
 }
 
-header svg {
-    margin-top: 10px;
+.sound-graphic {
+    text-align: center;
+    padding: 10px 0;
 }
 
 .bar {
