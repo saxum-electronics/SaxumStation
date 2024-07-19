@@ -22,7 +22,7 @@ header h1 {
 }
 
 .image-container img {
-    width: 10px; /* Ajusta este valor según el tamaño deseado */
+    width: 80px; /* Ajusta este valor según el tamaño deseado */
     height: auto;
 }
 
